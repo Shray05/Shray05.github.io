@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: rgb(141, 4, 4);
+  color: rgb(85, 85,85);
 }
 
 /* TRANSITION */
@@ -46,16 +46,16 @@ nav {
 }
 
 a {
-  color: rgb(221, 113, 12);
+  color: black;
   text-decoration: none;
-  text-decoration-color: rgb(202, 236, 9);
+  text-decoration-color: white;
 }
 
 a:hover {
-  color: rgb(75, 231, 13);
+  color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(15, 148, 201);
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
@@ -89,7 +89,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: rgb(5, 53, 5);
+  background-color: black;
   transition: all 0.3 ease-in-out;
 }
 
@@ -97,7 +97,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgb(83, 13, 245);
+  background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -109,7 +109,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(9, 6, 150);
+  color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -225,13 +225,14 @@ section {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
+  width: 15rem;
+  height: 12rem;
   border-radius: 2rem;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(70, 5, 87) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -241,12 +242,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(221, 65, 138);
-  color: rgb(63, 95, 72);
+  background: rgb(53, 53, 53);
+  color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb(204, 137, 137);
+  background: rgb(0,0,0);
 }
 
 .btn-color-2 {
@@ -254,7 +255,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(53, 40, 40) 0.1rem solid;
+  border: rgb(255,255,255) 0.1rem solid;
 }
 
 .btn-container {
@@ -296,10 +297,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: rgb(0, 0, 0);
+  background: white;
   border-radius: 2rem;
-  border: rgb(165, 145, 211) 0.1rem solid;
-  border-color: rgb(70, 71, 62);
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163,163,163);
   text-align: center;
 }
 
@@ -357,10 +358,11 @@ article .icon {
 
 #projects {
   position: relative;
+  justify-content: center;
 }
 
 .color-container {
-  border-color: rgb(255, 0, 0);
+  border-color: rgb(163, 163, 163);
   background: rgb(165, 207, 176);
 }
 
@@ -372,7 +374,7 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: rgb(58, 100, 107);
+  color:black;
 }
 
 .project-btn {
